@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import { Estilos } from './componentes/EstilosGlobais/Estilos';
+import { Card } from "./componentes/Card/Card";
+import { Estilos } from "./componentes/EstilosGlobais/Estilos";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Estilos />
-      <h1>Freelando</h1>
+      <Card>
+        <h1>Freelando</h1>
+      </Card>
     </div>
   );
 }

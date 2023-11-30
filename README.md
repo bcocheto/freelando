@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Projeto Freelando
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido para demonstrar habilidades na criação de uma página utilizando React, integrando bibliotecas de apoio ao layout, aplicando estilização com Emotion, implementando componentes visuais com base no design do Figma e compreendendo problemas de layout utilizando um sistema de Grid.
 
-## Available Scripts
+## Conceitos Aplicados
 
-In the project directory, you can run:
+- **Prototipagem de Página com React:** Utilizamos React para criar um protótipo de página web.
+- **Seleção de Bibliotecas de Apoio ao Layout:** Foram escolhidas bibliotecas específicas para auxiliar no layout e na estrutura da página.
+- **Integração do Emotion para Estilização:** O Emotion foi utilizado para estilizar os componentes React de forma eficiente e prática.
+- **Implementação de Componentes Visuais baseados no Figma:** Desenvolvemos os componentes visuais com base no design fornecido no Figma.
+- **Compreensão de Problemas de Layout com um Sistema de Grid:** Utilizamos um sistema de Grid para compreender e resolver problemas relacionados ao layout da página.
 
-### `npm start`
+## Bibliotecas Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **@emotion/css, @emotion/react, @emotion/styled:** Bibliotecas Emotion para estilização de componentes.
+- **@testing-library/jest-dom, @testing-library/react, @testing-library/user-event:** Bibliotecas para facilitar testes unitários com React.
+- **react, react-dom:** Bibliotecas principais do React para criação de interfaces web.
+- **react-grid-system:** Biblioteca para implementar um sistema de Grid no layout da página.
+- **react-scripts:** Ferramenta para scripts de inicialização, teste, build, etc., no ambiente de desenvolvimento com React.
+- **web-vitals:** Biblioteca para rastrear métricas de desempenho web.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar o Projeto Localmente
 
-### `npm test`
+### Requisitos Prévios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Certifique-se de ter o Node.js instalado na sua máquina.
 
-### `npm run build`
+### Passos para Execução
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clonar o repositório:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/bcocheto/freelando.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
 
-### `npm run eject`
+2. **Acessar o diretório do projeto:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd freelando
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Instalar dependências:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Utilize um dos seguintes comandos, dependendo do gerenciador de pacotes que você utiliza:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Utilizando npm:**
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Utilizando yarn:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+yarn install
+```
 
-### Code Splitting
+4. **Rodar o projeto:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Novamente, utilize o comando correspondente ao seu gerenciador de pacotes:
 
-### Analyzing the Bundle Size
+- **Utilizando npm:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+- **Utilizando yarn:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+yarn start
+```
 
-### Advanced Configuration
+5. **Acesso Local:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Após a execução dos passos anteriores, abra o navegador e acesse http://localhost:3000 para visualizar o projeto.
 
-### Deployment
+# Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos recursos. Basta fazer um fork do repositório, criar um branch, fazer as modificações e enviar um pull request.

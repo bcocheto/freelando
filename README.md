@@ -2,24 +2,22 @@
 
 # Freelando
 
-O Freelando é uma StartUP. 
-Nesse momento, é um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+O Freelando é uma StartUP que estou desenvolvendo, iniciando como um MVP e constantemente recebendo novas funcionalidades.
 
-<img src="screencapture.png" alt="Imagem do Freelando" width="50%">
-
+![Imagem do Freelando](screencapture.png)
 
 ## 🔨 Funcionalidades do projeto
 
-Nesse primeiro momento, nós temos a página que foi idealizada como a primeiro entrega do time de desenvolvimento.
+Nesta etapa inicial, a entrega inicial do meu time de desenvolvimento é uma página base que serve como ponto de partida para o projeto.
 
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/DGIzbfXEi27oiKzI0nGMIV/Freelando-%7C-WebApp-com-React?node-id=244%3A11524&t=J2NfqHrvVIr0jsgs-0).
+[Confira o Figma da aplicação](https://www.figma.com/file/DGIzbfXEi27oiKzI0nGMIV/Freelando-%7C-WebApp-com-React?node-id=244%3A11524&t=J2NfqHrvVIr0jsgs-0).
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-Se liga nessa lista de tudo que usaremos nesse curso:
+Durante o desenvolvimento, explorei diversas técnicas e tecnologias essenciais, incluindo:
 
 - `React`
-- `Create React App`
+- `Vite`
 - `Emotion`
 - `React Grid System`
 - `Eventos do Teclado`
@@ -31,11 +29,17 @@ E muito mais!
 
 ## 🛠️ Abrir e rodar o projeto
 
-Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `npm start` para inicar o projeto.
+Para iniciar o projeto, é importante ter o ambiente configurado com Vite. Após isso, siga os passos abaixo:
 
-Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
+1. Execute `npm i` para instalar as dependências.
+2. Inicie o projeto com `npm run dev`.
+3. Acesse o projeto através de [http://localhost:5173/](http://localhost:5173/) no seu navegador.
 
-## 📚 Mais informações do curso
+Para utilizar este projeto, será necessário baixar o seguinte projeto de backend: [freelando-back](https://github.com/bcocheto/freelando-back).
+Após o download, siga estas etapas no backend:
 
-O Freelando é uma StartUP fictícia utilizada nesse curso da Alura.
-A ideia principal desse curso é evoluir ainda mais os conhecimentos em React e estilização de componentes.
+1. Execute `npm i` para instalar as dependências.
+2. Inicie o backend com `npm run start`.
+3. Acesse [http://localhost:8080/api](http://localhost:8080/api) para explorar o swagger da aplicação.
+
+Certifique-se de manter ambos os projetos (frontend e backend) em execução para aproveitar ao máximo as funcionalidades oferecidas pelo Freelando.
